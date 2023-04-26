@@ -1,0 +1,237 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body > header {
+    background-color: #54719970;
+    padding: 16px 0;
+    font-family: sans-serif;
+    color: #220557;
+    
+}
+
+header .container {
+display: flex;
+align-items: center;
+justify-content: space-between;
+font-family: sans-serif;
+}
+
+header li {
+display: inline;
+font-family: sans-serif;
+font-weight: bold;
+margin-left: 16px;
+
+}
+
+header li a {
+    text-decoration: none;
+    font-family: sans-serif;
+    color: #220557;
+    text-decoration: none;
+}
+
+    header li a:hover  {
+    text-decoration: underline;
+    }
+.container {
+    width: 1288px;
+    margin: 0% auto 0 auto;
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: sans-serif;
+    justify-content: space-between;
+    
+}
+
+.articles article img {
+    /*height: 180px; */
+    width: 100%;
+}
+
+.articles article {
+    width: 30%;
+    font-family: sans-serif;
+
+}
+
+section {
+    padding: 16px 0;
+    font-family: sans-serif;
+}
+
+section h2,
+.articles article {
+margin-bottom: 16px;
+font-family: sans-serif;
+}
+
+.articles article h3 {
+margin-top: 8px;
+margin-bottom: 8px;
+font-family: sans-serif;
+color: #054e64d0;
+}
+
+header {
+    color: #054e6442;
+}
+
+.articles article h3 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    font-family: sans-serif;
+    color: #054e64d0;
+}
+.articles article a {
+    background-color: blue;
+    color: #220557;;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 8px;
+    font-family: sans-serif;
+}
+
+.articles article a:hover {
+    text-decoration: underline;
+}
+
+.articles article p,
+.articles article a {
+    font-family: sans-serif;
+}
+
+.articles article p {
+    color: #ff9f1a;
+}
+
+.articles article h3 {
+    font-size: 24px;
+}
+
+section h2 {
+    font-size: 32px;
+}
+
+#sports {
+    background-color: rgba(50, 228, 26, 0.11);
+    font-size: medium;
+    }
+
+    .articles article, header, #sports p {
+        color: #009431a1;
+    }
+
+    .articles article, header, #sports h3 {
+        color: #009432;
+    }
+
+    .articles article, header, #sports header {
+        color: #00943154;
+    }
+
+    .articles article p, #sports {
+    color: #009432;   
+    }
+
+
+    #sports .articles article a  {
+    background-color: #009431ad;
+    color: #ffff;
+    
+}
+
+#economy {
+    background-color: rgba(232, 255, 24, 0.11);
+    font-size: medium;
+    }
+
+    .articles article, header, #economy p {
+        color: #054e64a2;
+    }
+
+    .articles article, header, #economy h3 {
+        color: #054e64d0;
+    }
+
+    .articles article, header, #economy header {
+        color: #054e649a;
+    }
+
+    #economy h2 {
+        color: #054e64d0;
+    }
+
+    .articles article, header, #economy a {
+        color: #054e64d0;
+    }
+
+    #economy .articles article a  {
+        background-color: #054e64a8;
+        color: #ffffff;
+    }
+
+
+
+    #entertainment {
+        background-color: rgba(236, 75, 75, 0.11);
+        font-size: medium;
+        }
+    
+        .articles article, header, #entertainment p {
+            color: #000000a8;
+        }
+    
+        .articles article, header, #entertainment h3 {
+            color: #000;
+        }
+    
+        .articles article, header, #entertainment header {
+            color: #0000003a;
+        }
+    
+        #entertainment h2 {
+            color: #000;
+        }
+
+
+
+#entertainment .articles article a {
+    background-color: #0000009c;
+    color: #ffff;
+}
+
+
+#technology {
+    background-color: hsla(258, 73%, 34%, 0.11);
+    font-size: medium;
+}
+
+    .articles article, header, #technology p {
+        color: #060864b7;
+    }
+
+    .articles article, header, #technology h3 {
+        color: #060864;
+    }
+
+    .articles article, header, #technology header {
+        color: #06086456;
+    }
+
+    #technology h2 {
+        color: #060864;
+    }
+
+    #technology .articles article a {
+        background-color: #060864af;
+        color: #ffff;
+    }
